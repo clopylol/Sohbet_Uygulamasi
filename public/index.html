@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohbet Uygulaması</title>
+    <link rel="icon" href="https://i.ibb.co/cXXppxS/icon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a href="http://berkayertugrul.site" class="navbar-brand d-flex align-items-center">
+            <strong> Socket.IO </strong> ~ Sohbet Uygulaması </a>
+    </div>
+
+    <div style="margin-Top: 20px;" class="container">
+        <h4 class="h4"> Sohbet Uygulaması </h4>
+        <div class="col-sm-6 offset-md-3">
+            <hr class="hr">
+        </div>
+        <br>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 offset-md-3">
+            <div class="card text-primary border-primary">
+                <div class="mesgs">
+                    <div class="msg_history">
+                        <div id="msg"></div>
+                        <div id="msg_writing"></div>
+                    </div>
+                </div>
+                <hr class="hr-edit">
+                <div class="card-body">
+                    <div class="form-group">
+                        <input type="text" id="isim" class="form-control col-6" id="text" placeholder="İsim:" required />
+                        <br>
+                        <input type="text" id="mesaj" class="form-control" id="text" placeholder="Mesaj:" required />
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button id="gonder" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search"></span>
+                            Gönder
+                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="bi bi-chevron-double-right text-light" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer style="margin-Top: 30px;" class="container">
+        <div class="d-flex justify-content-center">
+            <p> © 2020 <a href="http://berkayertugrul.site"> Berkay Ertuğrul </a> tarafından ❤️ ile
+                tasarlanmıştır. </p>
+        </div>
+    </footer>
+</body>
+<script src="./chat.js"></script>
+</html>

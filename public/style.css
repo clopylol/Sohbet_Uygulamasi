@@ -1,0 +1,52 @@
+.h4 {
+    text-align: center;
+}
+
+.hr{  
+    background-color: #007bff;
+}
+
+
+.mesgs {
+    border-radius: 2rem 2rem 0 0;
+    padding: 30px 15px 0 15px;
+    width: 100%;
+}
+
+.msg_history {
+    height: 250px;
+    overflow: auto;
+}
+
+#msg p{
+    border: 1px solid #007bff;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 8px 10px;
+    margin: 10px 10px;
+    color: #343a40;
+}
+
+#msg_writing p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+.card{
+    border: 5px solid #007bff !important;
+    background: #ecf0f1!important;
+    border-radius: 2rem !important;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+.btn {
+    border-radius: 16px !important;;
+}
+
+.hr-edit{
+    border: 1px solid #007bff !important;
+}
