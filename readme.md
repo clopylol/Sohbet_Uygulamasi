@@ -7,7 +7,7 @@
  
 ### Gereksinimler:
 * [Node.js]
-*  [Visual Studio Code], [Atom] vb. herhangi bir editör.
+* [Visual Studio Code], [Atom] vb. herhangi bir editör.
 * Güncel [Socket.io] sürümü için bu bağlantıyı kullanabilirsiniz.
 
 ## Projenin Çalıştırılması:
@@ -19,7 +19,7 @@
 ![Socket](https://i.ibb.co/W5Z8LQp/Socket-io.gif)
 
 ## Projenin Oluşturulması
->Not: Bu tarz bir projeyi kendiniz oluşturmak isterseniz aşağıdaki adımları takip edebilirsiniz.
+> *Not: Bu tarz bir projeyi kendiniz oluşturmak isterseniz aşağıdaki adımları takip edebilirsiniz.*
 
 **1. Adım:  Package.json dosyasının oluşturulması**
 ```
@@ -36,7 +36,7 @@
 ```
 >>npm install socket.io --save
 ```
->Not: Bir önceki adımda sağladığımız kontrol işlemini burada da sağlayabiliriz.
+> *Not: Bir önceki adımda sağladığımız kontrol işlemini burada da sağlayabiliriz.*
 
 **4.Adım: NodeJS tabanlı uygulama geliştirirken dosyalardaki değişiklikleri algılayıp otomatik olarak sunucunun yeninden başlaması için "Nodemon" modülünü kullanacağız.**
 ```
@@ -48,7 +48,7 @@ index.js isimli bir dosya oluşturalım. (Farklı bir isimli dosya oluşturacaks
 **6.Adım: Önyüzün oluşturulması**
 Ana klasör içerisine public isimli bir dosya oluşturduk. O dosya içerisinde de **index.html** ve **style.css** dosyalarını oluşturalım. Güncel socket.io linkini kaynak olarak index.html içerisine eklemeyi unutmayın.
 
->Daha detaylı açıklamalar yorum satırı olarak eklenmiştir.
+> *Daha detaylı açıklamalar yorum satırı olarak eklenmiştir.*
 
    [Node.js]: <https://nodejs.org/en/>
    [Visual Studio Code]: <https://code.visualstudio.com/download>
