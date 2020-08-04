@@ -30,7 +30,7 @@
 ```
 >> npm install express --save
 ```
-> Not: Bu kurulumun doğru bir şekilde yapıldığını kontrol etmek için şuraya göz atabiliriz. **package.json** içerisinde **dependencies**'in altında "**express: Versiyon**" şeklinde oluşmalıdır.
+> _Not: Bu kurulumun doğru bir şekilde yapıldığını kontrol etmek için şuraya göz atabiliriz. **package.json** içerisinde **dependencies**'in altında "**express: Versiyon**" şeklinde oluşmalıdır._
 
 **3.Adım: Socket.io'nun yüklenmesi**
 ```
