@@ -8,7 +8,7 @@
 ### Gereksinimler:
 * [Node.js]
 *  [Visual Studio Code], [Atom] vb. herhangi bir editör.
-* Güncel Socket.io sürümü için bu bağlantıdan ulaşabilirsiniz.
+* Güncel [Socket.io] sürümü için bu bağlantıyı kullanabilirsiniz.
 
 ## Projenin Çalıştırılması:
 ```
